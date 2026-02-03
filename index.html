@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>戇鳩鳩</title>
+    <meta name="description" content="戇鳩鳩 - on99.app" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤪</text></svg>"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        overflow: hidden;
+      }
+
+      .container {
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .emoji {
+        font-size: 8rem;
+        animation: bounce 2s ease-in-out infinite;
+        display: inline-block;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+        25% {
+          transform: translateY(-20px) rotate(-5deg);
+        }
+        50% {
+          transform: translateY(0) rotate(0deg);
+        }
+        75% {
+          transform: translateY(-10px) rotate(5deg);
+        }
+      }
+
+      h1 {
+        font-size: 4rem;
+        color: #fff;
+        margin: 1.5rem 0;
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+        letter-spacing: 0.1em;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 300;
+      }
+
+      .bg-emoji {
+        position: fixed;
+        font-size: 3rem;
+        opacity: 0.15;
+        animation: float 6s ease-in-out infinite;
+        pointer-events: none;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-30px) rotate(10deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-emoji" style="top: 10%; left: 10%; animation-delay: 0s">
+      🤡
+    </div>
+    <div class="bg-emoji" style="top: 20%; right: 15%; animation-delay: 1s">
+      😜
+    </div>
+    <div class="bg-emoji" style="bottom: 20%; left: 20%; animation-delay: 2s">
+      🙃
+    </div>
+    <div class="bg-emoji" style="bottom: 15%; right: 10%; animation-delay: 3s">
+      😵‍💫
+    </div>
+    <div class="bg-emoji" style="top: 50%; left: 5%; animation-delay: 4s">
+      🥴
+    </div>
+    <div class="bg-emoji" style="top: 40%; right: 5%; animation-delay: 5s">
+      🤯
+    </div>
+
+    <div class="container">
+      <div class="emoji">🤪</div>
+      <h1>戇鳩鳩</h1>
+      <p class="subtitle">咁 on9 嘅？冇嘢睇㗎喎～</p>
+    </div>
+  </body>
+</html>
